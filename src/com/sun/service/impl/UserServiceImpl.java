@@ -7,7 +7,6 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public boolean isExist(User user) {
-
-        return false;
+        return user!=null;
     }
 }
