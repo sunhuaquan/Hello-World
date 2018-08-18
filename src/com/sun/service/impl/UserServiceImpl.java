@@ -9,4 +9,10 @@ public class UserServiceImpl implements UserService {
     public boolean isExist(User user) {
         return user!=null;
     }
+
+    @Override
+    public User Login(String name, String password) {
+        
+        return null;
+    }
 }
